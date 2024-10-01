@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/formulaire.css" />
+    <title>Ma premiere page web</title>
+  </head>
+  <body>
+    <div class="entete">
+      <div class="h1">
+        <h1>Formulaire</h1>
+      </div>
+      <div id="navbarDiv">
+        <ul>
+          <span class="navbar"
+            ><li><a href="page_d'accueil.html">Page d'accueil</a></li></span
+          >
+          <span class="navbar"
+            ><li><a href="apropos.html">A propos</a></li></span
+          >
+          <span class="navbar"
+            ><li>
+              <a href="formulaire.html">Formulaire d'inscription</a>
+            </li></span
+          >
+        </ul>
+      </div>
+    </div>
+    <div id="formulairebox">
+      <h2>Voici notre formulaire :</h2>
+      <form action="" method="">
+        <fieldset>
+          <label for="nom">Votre nom</label>
+          <input
+            class="formulaire"
+            type="text"
+            name="nom"
+            id="nom"
+            placeholder="Veuillez saisir votre nom"
+          />
+          <br />
+          <label for="prenom">Votre prénom:</label>
+          <input
+            class="formulaire"
+            type="text"
+            name="prenom"
+            id="prenom"
+            placeholder="Veuillez saisir votre prénom"
+          />
+          <br />
+          <div>
+            <label for="motdepasse">Mot de passe:</label>
+            <input
+              id="formulaireMdp"
+              class="formulaire"
+              type="password"
+              name="motdepasse"
+              required
+              placeholder="..."
+            />
+            <p id="noteMdp">
+              *Doit au moins contenir une majuscule,un chiffre et un caractère
+              spécial.
+            </p>
+          </div>
+          <br />
+          <label for="email">Votre email:</label>
+          <input
+            class="formulaire"
+            type="email"
+            name="email"
+            required
+            placeholder="exemple:abc@mail.fr"
+          />
+          <br />
+          <label for="uneDate">Votre date de naissance:</label>
+          <input class="formulaire" type="date" name="uneDate" required />
+          <label for="unNumber">Votre numero de telephone</label>
+          <input
+            id="tel"
+            class="formulaire"
+            type="number"
+            name="unNumber"
+            placeholder="ex : 0601234567"
+          />
+          <br />
+          <p id="sexe">Veuillez renseigner votre sexe:</p>
+          <label for="homme">Homme </label
+          ><input type="radio" name="genre" value="homme" checked />
+          <label for="femme">Femme </label
+          ><input type="radio" name="genre" value="femme" />
+          <label for="autre">Autre </label>
+          <input type="radio" name="genre" value="Autre" />
+          <br />
+        </fieldset>
+        <br />
+      </form>
+    </div>
+    <br />
+    <div class="bouton">
+      <button type="submit">OK</button>
+      <button type="reset">Reset</button>
+    </div>
+  </body>
+</html>

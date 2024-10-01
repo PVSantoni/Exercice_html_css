@@ -1,0 +1,59 @@
+body {
+  background-color: lightcyan;
+}
+
+#formulairebox {
+  background-image: url(https://img.freepik.com/photos-gratuite/texture-papier-blanc_1194-2301.jpg?t=st=1727724427~exp=1727728027~hmac=d2f4449a14a6908662dc7fad085a962a512a253272ebe568108326321087c54d&w=1380);
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 1000px;
+  height: 550px;
+  margin: auto;
+  margin-top: 50px;
+}
+fieldset {
+  border: none;
+}
+button {
+  width: 500px;
+  height: 60px;
+}
+.bouton {
+  width: auto;
+  height: 50px;
+  text-align: center;
+}
+
+#formulaireMdp {
+  padding: 0;
+  margin: 0;
+}
+
+#noteMdp {
+  margin: 0;
+  padding: 0;
+  block-size: 0;
+  font-style: italic;
+  font-size: smaller;
+}
+
+.formulaire {
+  text-align: center;
+  margin: 25px;
+  width: auto;
+  height: 20px;
+}
+#tel {
+  width: 100px;
+}
+
+input {
+  text-align: center;
+  border-radius: 5px;
+}
+
+label {
+  font-size: large;
+  font-weight: bold;
+}
